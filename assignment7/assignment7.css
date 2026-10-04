@@ -1,0 +1,136 @@
+body 
+{
+    background-color: grey;
+}
+
+#wrapper 
+{
+  margin: 1em auto;
+  padding: 0;
+  width: 1200px;
+  border: 4px solid #01479E;
+  display: grid;
+}
+
+#headerwrap
+{
+    background-color: #01479E;
+    grid-column: span 12;
+    border-bottom: 4px solid #01479E;
+}
+
+h1 a
+{
+    background-image: linear-gradient(to bottom, #136ef6, #165fe4, #1651d2, #1543c0, #1335ae);
+    color: #66CDFF;
+    font-size: 35px;
+    padding: 21px;
+    padding-left: 25px; 
+    padding-right: 552px;
+    font-family: Helvetica; 
+    font-weight: normal;
+    font-style: italic;
+    text-decoration: none;
+}
+
+h1 a:hover
+{
+    background-image: linear-gradient(to top, #136ef6, #165fe4, #1651d2, #1543c0, #1335ae);
+    color:white;
+}
+
+nav ul
+{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav li
+{
+    display: inline-block;
+    width: 297px;
+}
+
+nav li a
+{
+    background-image: linear-gradient(to bottom, #136ef6, #165fe4, #1651d2, #1543c0, #1335ae);
+    display: block;
+    padding: 10px 25px;
+    color: #66CDFF;
+    font-family: Helvetica; 
+    font-weight: bold;
+    text-decoration: none;
+}
+
+nav li a:hover
+{
+    background-image: linear-gradient(to top, #136ef6, #165fe4, #1651d2, #1543c0, #1335ae);
+    color: white;
+}
+
+h2
+{
+    color: darkblue;
+    font-family: Helvetica; 
+    font-weight: normal;
+    border-bottom: 3px solid darkblue;
+    padding-bottom: 7px;
+    margin-bottom: 20px; 
+}
+
+#smallmain
+{
+    background-color: lightblue;   
+    grid-column: span 5;
+    padding: 0px 12px;
+    font-weight: bold;
+    text-align: justify;
+}
+
+.currentpage
+{
+    color: white;
+}
+
+.currentpage:hover
+{
+    color: #66CDFF;
+    text-decoration: underline;
+}
+
+main 
+{
+    background-color: white;  
+    grid-column: span 7;
+    padding: 0px 12px;
+}
+
+.townhallpic
+{
+    float: left;
+    border: 4px solid darkblue;
+    margin-right: 15px;
+    margin-bottom: 10px;
+}
+
+p a
+{
+    color: #D01D00;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+p a:hover
+{
+    color: #66CDFF;
+    text-decoration: underline;
+}
+
+footer 
+{
+  background-color: #D01D00;
+  grid-column: span 12;
+  border-top: 4px solid #01479E;
+  padding: 7px;
+}
