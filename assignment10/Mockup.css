@@ -1,0 +1,145 @@
+body {
+  background-color: #000000;
+}
+
+#topwrapper 
+{
+    background-color: #ff006f;
+    /*background-color: black;*/
+    margin: 24px auto;
+    width: 1200px;
+    height: 75px;
+    border: 10px solid black;
+    padding: 0px 24px;
+    grid-template-columns: repeat(12, 1fr);
+}
+
+.topwrappercontents
+{
+    float: right;
+    margin: 10px;
+    height: 50px;
+}
+
+#wrapper 
+{
+    background-image: url(backdecal.png);
+    margin: 24px auto;
+    width: 1200px;
+    border: 10px solid black;
+    padding: 24px;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-column-gap: 24px;
+    grid-template-rows: 655px; /* This is for the dummy columns, replace or delete */
+}
+
+#headerwrap
+{
+    grid-column: span 12;
+}
+
+.wildbackground
+{
+    margin: -25px;
+    width: 1250px;
+}
+
+nav ul
+{
+    list-style-type: none;
+    padding: 0;
+    margin: -105px 10px;
+}
+
+nav li
+{
+    display: inline-block;
+    text-align: center;
+    font-size: 55px;
+    width: 265px;
+    margin: 0px 15px;
+}
+
+nav li a
+{
+    background-image: linear-gradient(to bottom, #FF0071, #ff3b7d);
+    display: block;
+    border: 20px solid black;
+    border-left: 12px solid black;
+    border-top: 12px solid black;
+    padding: 5px 0px;
+    color: white;
+    font-family: Helvetica; 
+    font-weight: bold;
+    text-decoration: none;
+}
+
+nav li a:hover
+{
+    background-image: linear-gradient(to bottom, #ff6c9d, #ff3b7d);
+    color: white;
+}
+
+.currentpageindicator
+{
+    border: 5px solid white;
+}
+
+h2
+{
+    font-family: Helvetica; 
+    text-align: center;
+    font-size: 45px;
+
+}
+
+#smallmain
+{ 
+    color: white; 
+    grid-column: span 5;
+    padding: 0px 12px;
+    font-family: Helvetica; 
+    font-weight: normal;
+    text-align: center;
+    font-size: 27px;
+}
+
+#imagewall
+{
+    grid-column: span 7;
+}
+
+.imagerow1
+{
+    height: 215px;
+    margin-right: 10px;
+    margin-top: 10px;
+    border: 10px solid white;
+    padding: 10px;
+    background-color: black;
+}
+
+.imagerow2
+{
+    height: 205px;
+    margin-right: 10px;
+    margin-top: 10px;
+    border: 10px solid white;
+    padding: 10px;
+    background-color: black;
+}
+
+#sectionbreaker
+{
+    grid-column: span 12;
+    margin: 50px;
+    border-top: 5px solid white;
+}
+
+
+/* style for dummy columns, delete and replace with your own CSS */
+.dummycolumn {
+  background-color: rgba(255,0,0,.25);
+  grid-column: span 1;
+}
